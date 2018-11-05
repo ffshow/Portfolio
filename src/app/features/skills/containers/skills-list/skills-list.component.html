@@ -1,0 +1,8 @@
+<div class="global">
+  <div class="center bg-dark">
+    <h1>Compétences</h1>
+    <ng-container *ngFor="let skill of skills$ | async">
+      <app-skill-list-item [skill]="skill"></app-skill-list-item>
+    </ng-container>
+  </div>
+</div>

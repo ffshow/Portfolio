@@ -1,0 +1,63 @@
+// IMPORTS 
+@import url('https://fonts.googleapis.com/css?family=Abel');
+// END 
+
+.textColor li a {
+    color: white;
+}
+.textColor li a:hover {
+    color:wheat;
+}
+.avatar {
+    width: 130px;
+    height: auto;
+    position: absolute;
+    left: 2%;
+    right: auto;
+    top: 10px;
+}
+
+.navbar {
+    position: relative;
+    height: 80px;
+}
+
+#navbarNav {
+    position: absolute;
+    right: 50px;
+    font-size: 20px;
+}
+
+.navbar-nav li {
+    margin-left: 60px;
+}
+
+.socialN {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    top: 20px; 
+}
+
+.menuSocial li{
+    display: inline;
+    padding: 40px;
+}
+
+.menuSocial {
+    position: absolute;
+    top: 45px;
+    left: 7.5%;
+}
+
+.big{
+    font-weight: bold;
+}
+
+.mainTitle {
+    position: absolute;
+    top: 15px;
+    left: 11%;
+    color: white;
+    font-family: 'abel', sans-serif;
+}
