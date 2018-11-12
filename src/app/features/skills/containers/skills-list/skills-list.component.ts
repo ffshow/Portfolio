@@ -16,5 +16,5 @@ export class SkillsListComponent implements OnInit {
   ngOnInit() {
     this.skills$ = this.skillsService.getAll$();
   }
-  
+
 }

@@ -9,11 +9,14 @@ import { Skill } from '../../models/Skill';
 export class SkillListItemComponent implements OnInit {
 
   @Input()
-  public skill:Skill;
+  public skill: Skill;
+  @Input()
+  public index: number;
 
   constructor() { }
 
   ngOnInit() {
   }
+
 
 }

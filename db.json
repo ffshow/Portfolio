@@ -1,0 +1,66 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "name": "HTML&CSS",
+            "rate": "100%",
+            "link": "../../../../../assets/img/htmlCSS.jpg"
+        },
+        {
+            "id": 2,
+            "name": "BootStrap",
+            "rate": "100%",
+            "link": "../../../../../assets/img/bootstrap.png"
+        },
+        {
+            "id": 3,
+            "name": "ECMAScript 2015",
+            "rate": "70%"
+        },
+        {
+            "id": 4,
+            "name": "Angular",
+            "rate": "50%"
+        },
+        {
+            "id": 5,
+            "name": "TypeScript",
+            "rate": "50%"
+        },
+        {
+            "id": 6,
+            "name": "JAVA",
+            "rate": "60%"
+        }
+    ],
+    "productions": [
+        {
+            "id": 1,
+            "title": "User Mapping Catalog - BCI LINK",
+            "content": "",
+            "date": "",
+            "link": "../../../../../assets/img/bioLogo.png"
+        },
+        {
+            "id": 2,
+            "title": "User Scripting Catalog - BCI CONNECT",
+            "content": "",
+            "date": "",
+            "link": "../../../../../assets/img/bioLogo.png"
+        },
+        {
+            "id": 3,
+            "title": "User Mapping Editor",
+            "content": "",
+            "date": "",
+            "link": "../../../../../assets/img/bioLogo.png"
+        },
+        {
+            "id": 4,
+            "title": "Pulpe",
+            "content": "Application WEB et Mobile",
+            "date": "",
+            "link": "../../../../../assets/img/pulpeSample.jpg"
+        }
+    ]
+}

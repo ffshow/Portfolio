@@ -1,7 +1,18 @@
-<div class="skillBox">
-    <p> {{ skill.name }}</p>
-    <p> {{ skill.rate }}</p>
+<div class="accordion">
+  <button
+    class="skillBox"
+    data-toggle="collapse"
+    [attr.data-target]="'#mainCollapseSkill' + index"
+    aria-expanded="false"
+    [attr.aria-controls]="'mainCollapseSkill' + index"
+  >
+    <p class="skillName">{{ skill.name }}</p>
+    <p>{{ skill.rate }}</p>
     <div class="skill">
-        <div class="skill_level" ng-style="{'width': 70%}"></div>
+      <div class="skillLevel" [ngStyle]="{ width: skill.rate }"></div>
     </div>
+  </button>
+  <div class="collapse" [attr.id]="'mainCollapseSkill' + index">
+    <div class="card card-body"></div>
+  </div>
 </div>

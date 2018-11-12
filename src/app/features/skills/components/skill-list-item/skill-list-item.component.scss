@@ -1,16 +1,15 @@
 .skillBox {
     box-sizing: border-box;
     width: 100%;
-    margin: 20px 0;
-}
-
-.skillBox p {
-    color: white;
-    text-transform: uppercase;
-    margin: 0 0 10px;
-    padding: 0;
-    font-weight: bold;
-    letter-spacing: 1px;
+    margin: 5px 0;
+    border-radius: 10px;
+    p  {
+        color: white;
+        margin: 0 0 10px;
+        padding: 0;
+        font-weight: bold;
+    }
+    p.skillName {text-align: left;}
 }
 
 .skillBox p:nth-child(2){
@@ -27,8 +26,27 @@
     border-radius: 2px;
 }
 
-.skill_level {
+.skillLevel {
     background: #0fffb7;
-    width: 100%;
     height: 10px;
+    animation: kfAnim 1.5s ease-out;
+}
+
+@keyframes kfAnim {0% {width: 0%;} 100% {}}
+
+button {
+    background: none;
+    border: none;
+    margin: none;
+    padding: none;
+    outline: none;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.skillBox:hover {background-color: rgb(33, 43, 43);}
+.card-body {
+    background-color: rgb(33,43,43);
+    color: white;
 }

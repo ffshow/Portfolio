@@ -1,0 +1,8 @@
+<div class="global">
+    <div class="center bg-dark">
+      <h1>Réalisations</h1>
+      <ng-container *ngFor="let production of productions$ | async">
+        <app-production-list-item [production]="production"></app-production-list-item>
+      </ng-container>
+    </div>
+  </div>
