@@ -4,63 +4,73 @@
             "id": 1,
             "name": "HTML&CSS",
             "rate": "100%",
-            "link": "../../../../../assets/img/htmlCSS.jpg"
+            "link": "../../../../../assets/img/htmlCSS.jpg",
+            "resume": ""
         },
         {
             "id": 2,
             "name": "BootStrap",
             "rate": "100%",
-            "link": "../../../../../assets/img/bootstrap.png"
+            "link": "../../../../../assets/img/bootstrap.png",
+            "resume": "Framework front-end open source permettant de générer des boutons, des formulaires, "
         },
         {
             "id": 3,
-            "name": "ECMAScript 2015",
-            "rate": "70%"
+            "name": "ECMAScript 6",
+            "rate": "70%",
+            "resume": ""
         },
         {
             "id": 4,
             "name": "Angular",
-            "rate": "50%"
+            "rate": "50%",
+            "resume": ""
         },
         {
             "id": 5,
             "name": "TypeScript",
-            "rate": "50%"
+            "rate": "50%",
+            "resume": ""
         },
         {
             "id": 6,
             "name": "JAVA",
-            "rate": "60%"
+            "rate": "60%",
+            "resume": ""
         }
     ],
     "productions": [
         {
             "id": 1,
-            "title": "User Mapping Catalog - BCI LINK",
-            "content": "",
+            "link": "",
+            "title": "User Mapping Catalog",
+            "content": "Création catalogue mapping",
             "date": "",
-            "link": "../../../../../assets/img/bioLogo.png"
+            "IMGlink": "../../../../../assets/img/UMCatalog.png"
         },
         {
             "id": 2,
-            "title": "User Scripting Catalog - BCI CONNECT",
-            "content": "",
+            "link": "",
+            "title": "User Scripting Catalog",
+            "content": "Création catalogue de script",
             "date": "",
-            "link": "../../../../../assets/img/bioLogo.png"
+            "IMGlink": "../../../../../assets/img/USCatalog.png"
         },
         {
             "id": 3,
+            "link": "",
             "title": "User Mapping Editor",
-            "content": "",
+            "content": "Refactoring application JAVA",
             "date": "",
-            "link": "../../../../../assets/img/bioLogo.png"
+            "IMGlink": "../../../../../assets/img/UMEditor.png"
         },
         {
             "id": 4,
+            "link": "",
             "title": "Pulpe",
             "content": "Application WEB et Mobile",
             "date": "",
-            "link": "../../../../../assets/img/pulpeSample.jpg"
+            "IMGlink": "../../../../../assets/img/pulpeSample.png"
         }
     ]
 }

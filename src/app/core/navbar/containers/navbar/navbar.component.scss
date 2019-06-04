@@ -55,9 +55,9 @@
 }
 
 .mainTitle {
-    position: absolute;
-    top: 15px;
-    left: 11%;
-    color: white;
-    font-family: 'abel', sans-serif;
+    position: absolute !important; 
+    top: 15px !important;
+    left: 11% !important;
+    color: white !important;
+    font-family: 'abel', sans-serif !important;
 }

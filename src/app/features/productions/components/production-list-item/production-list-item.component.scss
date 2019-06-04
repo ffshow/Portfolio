@@ -1,8 +1,13 @@
 .productionBox {
     box-sizing: border-box;
-    width: 100%;
-    margin: 15px;
-    float: left;
+    width: 22% !important;
+    margin: 19px;
+    display: inline-block;
+    vertical-align: top;
     padding: 10px;
+    transition: transform 0.3s;
+    &:hover {
+        transform: scale(1.08);
+    }
 }
 

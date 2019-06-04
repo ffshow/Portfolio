@@ -1,8 +1,9 @@
-<div class="global">
+<div class="global animated fadeIn">
   <div class="center bg-dark">
-    <h1>Compétences</h1>
+    <div id="accordion">
       <ng-container *ngFor="let skill of (skills$ | async); index as i">
         <app-skill-list-item [skill]="skill" [index]="i"></app-skill-list-item>
       </ng-container>
+      </div>
     </div>
   </div>

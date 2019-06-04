@@ -1,5 +1,4 @@
-<div class="accordion">
-  <button
+<button
     class="skillBox"
     data-toggle="collapse"
     [attr.data-target]="'#mainCollapseSkill' + index"
@@ -12,7 +11,6 @@
       <div class="skillLevel" [ngStyle]="{ width: skill.rate }"></div>
     </div>
   </button>
-  <div class="collapse" [attr.id]="'mainCollapseSkill' + index">
+  <div class="collapse" [attr.id]="'mainCollapseSkill' + index" data-parent="#accordion">
     <div class="card card-body"></div>
   </div>
-</div>

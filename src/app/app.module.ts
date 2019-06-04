@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 
+import { FormsModule } from '@angular/forms';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
@@ -17,7 +19,8 @@ import { ProductionsModule } from './features/productions/productions.module';
     AppRoutingModule,
     SkillsModule,
     ProductionsModule,
-    RouterModule
+    RouterModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
