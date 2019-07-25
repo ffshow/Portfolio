@@ -42,15 +42,15 @@
     "productions": [
         {
             "id": 1,
-            "link": "mapping",
+            "link": "/portfolio",
             "title": "",
-            "content": "Catalogue de mapping",
+            "content": "Portfolio",
             "date": "",
-            "IMGlink": "../../../../../assets/img/UMCatalog.png"
+            "IMGlink": "../../../../../assets/img/port.jpg"
         },
         {
             "id": 2,
-            "link": "script",
+            "link": "/script",
             "title": "",
             "content": "Catalogue de script",
             "date": "",
@@ -58,7 +58,7 @@
         },
         {
             "id": 3,
-            "link": "umEditor",
+            "link": "/umEditor",
             "title": "",
             "content": "App desktop JAVA",
             "date": "",
@@ -66,7 +66,7 @@
         },
         {
             "id": 4,
-            "link": "migrat",
+            "link": "/migrat",
             "title": "",
             "content": "App desktop JAVA",
             "date": "",
@@ -74,7 +74,7 @@
         },
         {
             "id": 5,
-            "link": "pulpe",
+            "link": "/pulpe",
             "title": "",
             "content": "App WEB et Mobile",
             "date": "",

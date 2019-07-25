@@ -5,26 +5,29 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
-import { SkillsModule } from './features/skills/skills.module';
 import { RouterModule } from '@angular/router';
 import { ProductionsModule } from './features/productions/productions.module';
 import { HomePageComponent } from './features/home-page/home-page.component';
-import { MappingComponent } from './features/mapping/mapping.component';
 import { PersonnalProjectComponent } from './features/personnal-project/personnal-project.component';
 import { MigratComponent } from './features/migrat/migrat.component';
-import { CommunicationComponent } from './features/competences/communication/communication.component';
-import { ForceDePropoComponent } from './features/competences/force-de-propo/force-de-propo.component';
-import { AutonomieComponent } from './features/competences/autonomie/autonomie.component';
-import { GestionProjetComponent } from './features/competences/gestion-projet/gestion-projet.component';
-import { DevAppJavaComponent } from './features/competences/dev-app-java/dev-app-java.component';
+import { CommunicationComponent } from './features/competences/humaines/communication/communication.component';
+import { ForceDePropoComponent } from './features/competences/humaines/force-de-propo/force-de-propo.component';
+import { AutonomieComponent } from './features/competences/humaines/autonomie/autonomie.component';
+import { GestionProjetComponent } from './features/competences/techniques/gestion-projet/gestion-projet.component';
+import { DevAppJavaComponent } from './features/competences/techniques/dev-app-java/dev-app-java.component';
 import { UmEditorComponent } from './features/um-editor/um-editor.component';
-import { RefactoringAppJavaComponent } from './features/competences/refactoring-app-java/refactoring-app-java.component';
+import { UiUxComponent } from './features/competences/techniques/ui-ux/ui-ux.component';
+import { CompetenceNavComponent } from './features/competence-nav/competence-nav.component';
+import { DevWebComponent } from './features/competences/techniques/dev-web/dev-web.component';
+import { HumanCompetenceComponent } from './features/competences/humaines/human-competence/human-competence.component';
+import { TechCompComponent } from './features/competences/techniques/tech-comp/tech-comp.component';
+import { UserScriptingComponent } from './features/user-scripting/user-scripting.component';
+import { PortfolioComponent } from './features/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    MappingComponent,
     PersonnalProjectComponent,
     MigratComponent,
     CommunicationComponent,
@@ -33,12 +36,17 @@ import { RefactoringAppJavaComponent } from './features/competences/refactoring-
     GestionProjetComponent,
     DevAppJavaComponent,
     UmEditorComponent,
-    RefactoringAppJavaComponent
+    UiUxComponent,
+    CompetenceNavComponent,
+    DevWebComponent,
+    HumanCompetenceComponent,
+    TechCompComponent,
+    UserScriptingComponent,
+    PortfolioComponent
   ],
   imports: [
     CoreModule,
     AppRoutingModule,
-    SkillsModule,
     ProductionsModule,
     RouterModule,
     FormsModule
