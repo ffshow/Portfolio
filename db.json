@@ -49,14 +49,6 @@
             "IMGlink": "../../../../../assets/img/port.jpg"
         },
         {
-            "id": 2,
-            "link": "/script",
-            "title": "",
-            "content": "Catalogue de script",
-            "date": "",
-            "IMGlink": "../../../../../assets/img/USCatalog.png"
-        },
-        {
             "id": 3,
             "link": "/umEditor",
             "title": "",

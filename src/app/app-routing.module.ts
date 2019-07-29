@@ -16,7 +16,6 @@ import { CompetenceNavComponent } from './features/competence-nav/competence-nav
 import { DevWebComponent } from './features/competences/techniques/dev-web/dev-web.component';
 import { HumanCompetenceComponent } from './features/competences/humaines/human-competence/human-competence.component';
 import { TechCompComponent } from './features/competences/techniques/tech-comp/tech-comp.component';
-import { UserScriptingComponent } from './features/user-scripting/user-scripting.component';
 import { PortfolioComponent } from './features/portfolio/portfolio.component';
 
 const routes: Routes = [
@@ -36,7 +35,6 @@ const routes: Routes = [
   {path: 'devWeb', component: DevWebComponent },
   {path: 'humanComp', component: HumanCompetenceComponent},
   {path: 'techComp', component: TechCompComponent},
-  {path: 'script', component: UserScriptingComponent},
   {path: 'portfolio', component: PortfolioComponent}
 ];
 

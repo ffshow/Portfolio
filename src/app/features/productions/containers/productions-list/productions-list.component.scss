@@ -8,12 +8,13 @@ h1 {
 }
 
 .center {
-    width: 90%;
+    width: auto;
     margin: 0 auto;
+    margin-left: 12%;
+    margin-right: 12%;
     margin-top: 120px;
-    padding: 30px;
+    padding: 10px;
     box-sizing: border-box;
     box-shadow: 0 20px 50px rgba(0, 0, 0, .5);
     border-radius: 20px;
 }
-
